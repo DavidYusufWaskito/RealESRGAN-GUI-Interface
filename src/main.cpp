@@ -368,3 +368,32 @@ bool NonEmptyValidator::Validate(wxWindow* parent)
 
     return true;   
 }
+
+ImagePanel::ImagePanel(wxWindow* parent,wxBitmap image,int id = wxID_ANY) : 
+wxScrolledWindow(parent,id),
+m_scale(1.0),
+img(image),
+m_offsetX(0),
+m_offsetY(0)
+{
+    this->SetVirtualSize(this->img.GetWidth(),this->img.GetHeight());
+    this->SetScrollRate(1,1);
+}
+
+void ImagePanel::onScroll(wxScrollEvent& e)
+{
+    if (e.GetOrientation() == wxVERTICAL)
+        m_offsetY = e.GetPosition();
+    else if (e.GetOrientation() == wxHORIZONTAL)
+        m_offsetX = e.GetPosition();
+    this->Refresh();
+}
+
+void ImagePanel::onZoom(wxMouseEvent& e)
+{
+    if (e.GetWheelRotation() > 0)
+        m_scale *= 1.1;
+    else if (e.GetWheelRotation() < 0)
+        m_scale /= 1.1;
+    this->Refresh();
+}

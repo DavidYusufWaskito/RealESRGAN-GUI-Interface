@@ -105,3 +105,20 @@ public:
         return new NonEmptyValidator(*this);
     }
 };
+
+// image panel
+class ImagePanel : public wxScrolledWindow
+{
+public:
+    ImagePanel(wxWindow* parent,wxBitmap image,int id);
+private:
+    wxBitmap img;
+    double m_scale;
+    int m_offsetX;
+    int m_offsetY;
+
+private: // handler
+    void onScroll(wxScrollEvent&);
+    void onZoom(wxMouseEvent&);
+    void onPaint(wxPaintEvent&);
+};
