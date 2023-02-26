@@ -1,0 +1,27 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "${workspaceFolder}",
+            "binaryPath": "${workspaceFolder}\\main.exe",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "c:\\Users\\USER\\projects\\wxWidgets\\todolist\\build\\debug",
+            "binaryPath": "c:\\Users\\USER\\projects\\wxWidgets\\todolist\\build\\debug\\debug.exe",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "c:\\Users\\USER\\projects\\wxWidgets\\Realesrgan interface\\build\\debug",
+            "binaryPath": "c:\\Users\\USER\\projects\\wxWidgets\\Realesrgan interface\\build\\debug\\debug.exe",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "c:\\Users\\USER\\projects\\wxWidgets\\Realesrgan interface\\build\\release",
+            "binaryPath": "c:\\Users\\USER\\projects\\wxWidgets\\Realesrgan interface\\build\\release\\release_static.exe",
+            "binaryArgs": []
+        }
+    ],
+    "files.associations": {
+        "fstream": "cpp"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${default}",
+                "${workspaceFolder}\\include",
+                "${workspaceFolder}\\res",
+                "D:\\Programming liblaries\\wxWidgets-3.1.5\\INSTALL\\wxWidgets\\include\\wx-3.1",
+                "D:\\Programming liblaries\\wxWidgets-3.1.5\\INSTALL\\wxWidgets\\lib\\wx\\include\\msw-unicode-3.1"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            "compilerPath": "D:/Visual studio/VC/Tools/MSVC/14.29.30037/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}

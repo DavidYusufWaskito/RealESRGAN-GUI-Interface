@@ -1,0 +1,11 @@
+mingw32-make.exe all --dry-run --keep-going --print-directory
+mingw32-make: Entering directory 'c:/Users/USER/projects/wxWidgets/todolist'
+g++ -fdiagnostics-color=always -g -DDEBUG -c src\main.cpp -I "include" -I "D:\Programming liblaries\wxWidgets-3.1.5\INSTALL\wxWidgets\include\wx-3.1" -I "D:\Programming liblaries\wxWidgets-3.1.5\INSTALL\wxWidgets\lib\wx\include\msw-unicode-3.1" -o maind.o
+ 
+g++ appd.o maind.o -o build\debug\debug.exe -I "include" -I "D:\Programming liblaries\wxWidgets-3.1.5\INSTALL\wxWidgets\include\wx-3.1" -I "D:\Programming liblaries\wxWidgets-3.1.5\INSTALL\wxWidgets\lib\wx\include\msw-unicode-3.1" -L "D:\Programming liblaries\wxWidgets-3.1.5\INSTALL\wxWidgets\lib" -l "wx_mswud_core-3.1.dll" -l "wx_baseud-3.1.dll"
+ 
+g++ -static -s -O3 -Wl,--subsystem,windows -c src\main.cpp -I "include" -I "D:\Programming liblaries\wxWidgets-3.1.5\INSTALL\wxWidgets release\include\wx-3.1" -I "D:\Programming liblaries\wxWidgets-3.1.5\INSTALL\wxWidgets release\lib\wx\include\msw-unicode-3.1"
+ 
+g++ -static -s -O3 -Wl,--subsystem,windows app.o main.o -o build\release\release.exe -I "include" -I "D:\Programming liblaries\wxWidgets-3.1.5\INSTALL\wxWidgets release\include\wx-3.1" -I "D:\Programming liblaries\wxWidgets-3.1.5\INSTALL\wxWidgets release\lib\wx\include\msw-unicode-3.1" -L "D:\Programming liblaries\wxWidgets-3.1.5\INSTALL\wxWidgets release\lib" -l "wx_mswu_core-3.1.dll" -l "wx_baseu-3.1.dll"
+mingw32-make: Leaving directory 'c:/Users/USER/projects/wxWidgets/todolist'
+ 

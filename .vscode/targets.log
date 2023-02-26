@@ -1,0 +1,430 @@
+mingw32-make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun Aug 14 15:50:07 2022
+
+# Variables
+
+# environment
+SYSTEMDRIVE = C:
+# environment
+JAVA_HOME = D:\Android\openjdk
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 2)
+SRC = src
+# environment
+USERPROFILE = C:\Users\USER
+# makefile (from 'Makefile', line 6)
+DEBUG_INCLUDE_PATH = -I "include" -I "D:\Programming liblaries\wxWidgets-3.1.5\INSTALL\wxWidgets\include\wx-3.1" -I "D:\Programming liblaries\wxWidgets-3.1.5\INSTALL\wxWidgets\lib\wx\include\msw-unicode-3.1"
+# enviro 
+nment
+LOCALAPPDATA = C:\Users\USER\AppData\Local
+# environment
+KONAN_DATA_DIR = E:\Stuff\.konan
+# environment
+VSCODE_CWD = C:\Users\USER\projects\wxWidgets\todolist
+# makefile (from 'Makefile', line 3)
+DEBUG_FLAG = -fdiagnostics-color=always -g -DDEBUG
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\
+# environment
+GNUPLOT_LIB = D:\Programs\gnuplot\demo;D:\Programs\gnuplot\demo\games;D:\Programs\gnuplot\share
+# default
+MAKE_COMMAND := mingw32-make.exe
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_5452_DBVFNUWXRMOCXEQK
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+BESIEGE_GAME_ASSEMBLIES = D:/SteamLibrary fallout nv/steamapps/common/Besiege/Besiege_Data\Managed/
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\USER\AppData\Roaming\Code\CachedData\6d9b74a70ca9c7733b29f0456fd8195364076dda
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\USER\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\USER\OneDrive
+# makefile
+CURDIR := c:/Users/USER/projects/wxWidgets/todolist
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Makefile', line 18)
+LINKING_RELEASE = -L "D:\Programming liblaries\wxWidgets-3.1.5\INSTALL\wxWidgets release\lib" -l "wx_mswu_core-3.1.dll" -l "wx_baseu-3.1.dll"
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 5452
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+*F = $(notdir $*)
+# makefile (from 'Makefile', line 14)
+RELEASE_INCLUDE_PATH = -I "include" -I "D:\Programming liblaries\wxWidgets-3.1.5\INSTALL\wxWidgets release\include\wx-3.1" -I "D:\Programming liblaries\wxWidgets-3.1.5\INSTALL\wxWidgets release\lib\wx\include\msw-unicode-3.1"
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ANDROID_SDK_ROOT = D:\Android\sdk
+# environment
+ONEDRIVECONSUMER = C:\Users\USER\OneDrive
+# default
+MAKE_HOST := Windows32
+# environment
+ANDROID_HOME = D:\Android\sdk
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\USER
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# makefile (from 'Makefile', line 10)
+LINKING_DEBUG = -L "D:\Programming liblaries\wxWidgets-3.1.5\INSTALL\wxWidgets\lib" -l "wx_mswud_core-3.1.dll" -l "wx_baseud-3.1.dll"
+# makefile (from 'Makefile', line 4)
+RELEASE_FLAG = -static -s -O3 -Wl,--subsystem,windows
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Reallusion\CamSuite;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\aircrack-ng-1.5.2-win\bin\64bit;C:\Users\USE;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;D:\Programs\gnuplot\bin;C:\Program Files\dotnet\;D;C:\Users\USER\.cargo\bin;D:\Python\Scripts\;D:\Python\;C:\ffmpeg-4.3.2-2021-02-02-full_build\bin;D:\Microsoft VS Code\bin;D:\youtube to mp 3;D:\GODOT engine\upx-3.96-win64;C:\Program Files\CMake\bin;D:\Programs\gnuplot\bin;D:\Android\flutter\bin;D:\Android\openjdk\bin;D:\Android\sdk\tools\bin;D:\Android\sdk\platform-tools;D:\Android\gradle\bin;D:\Android\strcpy;D:\Programs\Vim\vim82;D:\Programs\LLVM\bin;D:\Programs\swigwin-4.0.2;D:\Programs\Msys2\mingw64\bin;D:\Programs\V language\v;D:\Programs\V language\v\vlib;C:\Users\USER\.dotnet\tools;D:\Programs\kotlin-native-windows-x86_64-1.6.21\bin;D:\Programs\Graphviz\bin;D:\Programs\scrcpy;
+# environment
+COMPUTERNAME = DESKTOP-T489ORS
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132453770121660935
+# environment
+LOGONSERVER = \\DESKTOP-T489ORS
+# makefile (from 'Makefile', line 5)
+BUILD_PATH = build
+# environment
+USERNAME = Lukee467
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = DESKTOP-T489ORS
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile (from 'Makefile', line 22)
+DLL_DEBUG = D:\Programming liblaries\wxWidgets-3.1.5\INSTALL\wxWidgets\lib
+# makefile
+.DEFAULT_GOAL := all
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-T489ORS
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+PUBLIC = C:\Users\Public
+# environment
+SOURCESDK = D:\SteamLibrary fallout nv\steamapps\common\SourceSDK
+# environment
+APPDATA = C:\Users\USER\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# makefile (from 'Makefile', line 1)
+GCC = g++
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# makefile (from 'Makefile', line 23)
+DLL_RELEASE = D:\Programming liblaries\wxWidgets-3.1.5\INSTALL\wxWidgets release\lib
+# environment
+VPROJECT = D:\SteamLibrary fallout nv\steamapps\common\half-life 2\hl2
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\USER\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\6f7f7439a076c1dd521200c06694e730-1.70.1-main-sock
+# environment
+GNUTERM = windows
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+BESIEGE_UNITY_ASSEMBLIES = D:/SteamLibrary fallout nv/steamapps/common/Besiege/Besiege_Data\Managed/
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 4e03
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
+# variable set hash-table stats:
+# Load=112/1024=11%, Rehash=0, Collisions=16/162=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Users/USER/projects/wxWidgets/todolist, mtime 1660400787): 17 files, no impossibilities.
+
+# 17 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+build\release\wxmsw315u_core_gcc_custom.dll: build\release\release.exe
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 41):
+	copy "$(DLL_RELEASE)\wxmsw315u_core_gcc_custom.dll" "$(BUILD_PATH)\release\"
+
+build\debug\debug.exe: appd.o maind.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-13 22:26:10
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+#  recipe to execute (from 'Makefile', line 45):
+	$(GCC) appd.o maind.o -o $(BUILD_PATH)\debug\debug.exe $(DEBUG_INCLUDE_PATH) $(LINKING_DEBUG)
+
+# Not a target:
+src\main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-14 15:49:24
+#  File has been updated.
+#  Successfully updated.
+
+build\debug\wxmsw315ud_core_gcc_custom.dll: build\debug\debug.exe
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 35):
+	copy "$(DLL_DEBUG)\wxmsw315ud_core_gcc_custom.dll" "$(BUILD_PATH)\debug\"
+
+debug: build\debug\debug.exe
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+
+maind.o: src\main.cpp
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Last modified 2022-08-13 22:26:09
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := maind.o
+# automatic
+# * := 
+# automatic
+# < := src\main.cpp
+# automatic
+# + := src\main.cpp
+# automatic
+# % := 
+# automatic
+# ^ := src\main.cpp
+# automatic
+# ? := src\main.cpp
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 60):
+	$(GCC) $(DEBUG_FLAG) -c $(SRC)\main.cpp $(DEBUG_INCLUDE_PATH) -o maind.o
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-05 11:24:55
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 29):
+	del *.o
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: debug release
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+
+# Not a target:
+src\app.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-03 23:27:39
+#  File has been updated.
+#  Successfully updated.
+
+build\release\release.exe: app.o main.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 48):
+	$(GCC) $(RELEASE_FLAG) app.o main.o -o $(BUILD_PATH)\release\release.exe $(RELEASE_INCLUDE_PATH) $(LINKING_RELEASE)
+
+main.o: src\main.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 54):
+	$(GCC) $(RELEASE_FLAG) -c $(SRC)\main.cpp $(RELEASE_INCLUDE_PATH)
+
+build\release\wxbase315u_gcc_custom.dll: build\release\release.exe
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 38):
+	copy "$(DLL_RELEASE)\wxbase315u_gcc_custom.dll" "$(BUILD_PATH)\release\"
+
+appd.o: src\app.cpp
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-05 11:26:02
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 57):
+	$(GCC) $(DEBUG_FLAG) -c $(SRC)\app.cpp $(DEBUG_INCLUDE_PATH) -o appd.o
+
+build\debug\wxbase315ud_gcc_custom.dll: build\debug\debug.exe
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 32):
+	copy "$(DLL_DEBUG)\wxbase315ud_gcc_custom.dll" "$(BUILD_PATH)\debug\"
+
+release: build\release\release.exe
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+app.o: src\app.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 51):
+	$(GCC) $(RELEASE_FLAG) -c $(SRC)\app.cpp $(RELEASE_INCLUDE_PATH)
+
+# files hash-table stats:
+# Load=19/1024=2%, Rehash=0, Collisions=0/55=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0 
+) / strings = 31 / storage = 400 B / avg = 12 B
+# current buf: size = 8162 B / used = 400 B / count = 31 / avg = 12 B
+
+# strcache performance: lookups = 69 / hit rate = 55%
+# hash-table stats:
+# Load=31/8192=0%, Rehash=0, Collisions=0/69=0%
+# Finished Make data base on Sun Aug 14 15:50:07 2022
+
+ 
