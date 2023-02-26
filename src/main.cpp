@@ -318,7 +318,7 @@ void main::OnBtnPressed(wxCommandEvent &e)
                 {
                     upscale_progressbar->SetValue( std::stoi(Progress.substr(PercentPos - PercentPos, PercentPos)));
                     command_txtctrl->AppendText("Progress: " + Progress.substr(PercentPos - PercentPos, PercentPos) + "%\n");
-                    std::cout << Progress.substr(PercentPos - PercentPos, PercentPos) + "%\n";
+                    // std::cout << Progress.substr(PercentPos - PercentPos, PercentPos) + "%\n";
                 }
                 else{
                     command_txtctrl->AppendText(buffer);
