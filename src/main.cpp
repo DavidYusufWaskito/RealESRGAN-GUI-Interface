@@ -380,7 +380,7 @@ m_offsetY(0)
     this->SetScrollRate(1,1);
 }
 
-void ImagePanel::onScroll(wxScrollEvent& e)
+void ImagePanel::onScroll(wxScrollWinEvent& e)
 {
     if (e.GetOrientation() == wxVERTICAL)
         m_offsetY = e.GetPosition();
@@ -396,4 +396,18 @@ void ImagePanel::onZoom(wxMouseEvent& e)
     else if (e.GetWheelRotation() < 0)
         m_scale /= 1.1;
     this->Refresh();
+}
+
+void ImagePanel::onPaint(wxPaintEvent& e)
+{
+    wxPaintDC dc(this);
+
+    // scale the image
+    int scaleWidth = this->img.GetWidth() * m_scale;
+    int scaleHeight = this->img.GetHeight() * m_scale;
+    int scaleOffsetX = this->m_offsetX * m_scale;
+    int scaleOffsetY = this->m_offsetY * m_scale;
+
+    wxBitmap scaledImage(this->img.ConvertToImage(),scaleWidth,scaleHeight);
+    dc.DrawBitmap(scaledImage,-scaleOffsetX,-scaleOffsetY);
 }

@@ -118,7 +118,14 @@ private:
     int m_offsetY;
 
 private: // handler
-    void onScroll(wxScrollEvent&);
+    void onScroll(wxScrollWinEvent&);
     void onZoom(wxMouseEvent&);
     void onPaint(wxPaintEvent&);
+    DECLARE_EVENT_TABLE()
 };
+
+BEGIN_EVENT_TABLE(ImagePanel, wxScrolledWindow)
+    EVT_SCROLLWIN(ImagePanel::onScroll)
+    EVT_MOUSEWHEEL(ImagePanel::onZoom)
+    EVT_PAINT(ImagePanel::onPaint)
+END_EVENT_TABLE()
