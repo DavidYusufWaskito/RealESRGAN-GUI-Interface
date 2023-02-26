@@ -87,14 +87,14 @@ $(BUILD_PATH)\release\release_static.exe: app.o main.o
 resource_compiled.res: $(RES)\resource.rc
 	windres --include-dir "D:\\Programming liblaries\\wxWidgets-3.1.5\\INSTALL\\wxWidgets (Static)\\include\\wx-3.1" -J rc -O coff -i $(RES)\resource.rc -o $(RES)\resource_compiled.res
 
-app.o: $(SRC)\app.cpp
+app.o: $(SRC)\app.cpp include/*.h
 	$(GCC) $(RELEASE_FLAG) -c $(SRC)\app.cpp $(RELEASE_INCLUDE_PATH)
 
-main.o: $(SRC)\main.cpp
+main.o: $(SRC)\main.cpp include/*.h
 	$(GCC) $(RELEASE_FLAG) -c $(SRC)\main.cpp $(RELEASE_INCLUDE_PATH)
 
-appd.o: $(SRC)\app.cpp
+appd.o: $(SRC)\app.cpp include/*.h
 	$(GCC) $(DEBUG_FLAG) -c $(SRC)\app.cpp $(DEBUG_INCLUDE_PATH) -o appd.o
 
-maind.o: $(SRC)\main.cpp
+maind.o: $(SRC)\main.cpp include/*.h
 	$(GCC) $(DEBUG_FLAG) -c $(SRC)\main.cpp $(DEBUG_INCLUDE_PATH) -o maind.o
