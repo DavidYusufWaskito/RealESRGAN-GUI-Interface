@@ -16,7 +16,7 @@ This project requires the following dependencies to be installed on your system:
 * wxWidgets
 
 3. Build the project:
-**make all** all his will build the project, see build directory
+**make all** this will build the project, see build directory
 
 ## License
 
