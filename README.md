@@ -12,7 +12,7 @@ git clone https://github.com/Dazzy467/realesrgan-gui.git
 2. Install the required dependencies:
 This project requires the following dependencies to be installed on your system:
 
-* C++ Compiler (e.g. GCC, Clang)
+* MINGW C++ Compiler 
 * wxWidgets
 
 3. Build the project:
