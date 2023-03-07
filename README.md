@@ -18,6 +18,8 @@ This project requires the following dependencies to be installed on your system:
 3. Build the project:
 **make all** this will build the project, see build directory
 
+(The project makefile is using my local library, please edit the makefile first or just wait for the Cmake config)
+
 ## License
 
 This project is licensed under the GPL-3.0 License. See the LICENSE file for details.
